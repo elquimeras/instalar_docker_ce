@@ -20,8 +20,7 @@ Probado en Linux 16.04 && 18.04
 
 5. Instalar Docker CE / Install Docker CE
 	
-	`sudo apt-get update`
-	`sudo apt-get install docker-ce -y`
+	`sudo apt-get update && sudo apt-get install docker-ce -y`
 
 6. Agregar el usuario docker a lista de suoers / Add sudoer user for docker
 	
@@ -38,3 +37,5 @@ Probado en Linux 16.04 && 18.04
 	`CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES`
 
 	- Docker fué instalado / Docker was installed
+
+8. Si tienes problemas, abre un issue y revisamos!

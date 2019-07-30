@@ -25,7 +25,9 @@ Probado en Linux 16.04 && 18.04
 6. Agregar el usuario docker a lista de suoers / Add sudoer user for docker
 	
 	`sudo groupadd docker`
+	
 	`sudo gpasswd -a $USER docker`
+	
 	`sudo usermod -aG docker $USER`
 
 7. Reinicia el terminal y prueba / Restart terminal and test
